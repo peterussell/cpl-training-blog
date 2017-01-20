@@ -111,8 +111,8 @@ The engine is covered by a cowling, or **nacelle**, whose purpose is
 to streamline the flow of air around the engine to help cool the
 engine by ducting air around cylinders.
 
-The **propellor* translates rotational force of the engine into
-thrust, pulling the airplane forward. It's a rotating airfoil which
+The **propellor translates rotational force of the engine into
+thrust**, pulling the airplane forward. It's a rotating airfoil which
 produces lift in a similar way to the wing. Engines may be turned
 around to become **pushers** with the propellor at the rear.
 
