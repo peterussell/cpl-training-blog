@@ -7,7 +7,7 @@ categories: cpl-multi-training
 
 # Aircraft Design Characteristics
 
-The fllowing summarizes the more important aspects of an aircraft's stability,
+The following summarizes the more important aspects of an aircraft's stability,
 maneuverability, and controllability; how they are analyzed; and their
 relationship to various flight conditions.
 
