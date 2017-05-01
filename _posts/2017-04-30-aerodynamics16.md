@@ -179,3 +179,21 @@ compromising the integrity of the aircraft structure.
 > Speeds up to, but not exceeding, the maneuvering speed allow an aircraft
 > to **stall prior to experiencing an increase in load factor that would
 > exceed the limit load of the aircraft.**
+
+# Vg Diagram
+
+ * The flight operating strength is shown on a Vg diagram: velocity vs load
+   factor. The vertical scale is load factor (or Gs), horizontal is velocity.
+ * Each aircraft has its own Vg diagram, **valid at a certain weight and
+   altitude**.
+ * The lines of maximum lift capability (curved lines) show the minimum
+   speed at a given load factor required, below which the airplane would stall.
+ * The diagram also shows regions where structural damage, and structural
+   failure would occur for a given load factor (positive or negative).
+ * The **limit airspeed** (or redline speed) is a design reference point for
+   the aircraft, above which structural damage or failure may result from
+   a variety of phenomena.
+ * For each Vg diagram, the aircraft in flight cannot exceed the limit
+   (redline) speed, the limit load factor, or the maximum lift capability.
+   The aircraft must be operated within this 'envelope' to prevent structural
+   damage.
