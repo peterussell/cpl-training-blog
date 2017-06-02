@@ -1,181 +1,230 @@
 ---
 layout: post
-title:  "GS34: Aircraft Systems (7)
-date:   2017-05-31 22:22:00
+title:  "GS34: Aircraft Systems (7)"
+date:   2017-06-01 21:42:00
 categories: cpl-multi-training
 ---
 
-# Oil Systems (continued)
+# Turbine Engines
 
- * The oil **pressure** gauge(s) provide an indication of pressure in pounds
-   per square inch (PSI) of oil supplied to the engine. Green indicates
-   normal operating range, red indicates min and max operating pressures.
- * The oil **temperature** guage(s) measure oil temperature. Unlike
-   pressure, temp changes can occur more slowly, eg. after starting a
-   cold engine.
-    * Check oil temp periodically, especially operating in high or low
-      ambient air temperatures.
-    * **High** indications may signal a plugged oil line, low oil, blocked
-      oil cooler, or defective gauage.
-    * **Low** temperature may indicate improper oil viscosity in cold
-      weather operations.
+ * Turbine engines produce thrust by accelerating the air flowing through
+   the engine.
+ * Consist of an **air inlet, compressor, combustion chamber, turbine section,**
+   and **exhaust**.
+ * Characterized by smooth operation, and a **high power-to-weight ratio**.
 
-# Engine Cooling Systems
+**Very Light Jets (VLJs)**
 
- * Combustion causes high temperatures in the engine. Much is carried
-   away by exhaust gases, but the rest must be removed to prevent engine
-   overheating.
- * High engine temps can lead to **loss of power, excessive oil consumption,
-   detonation, and serious engine damage.**
- * **Oil** plays an important role in cooling, but other methods are
-   required to provide additional cooling to the engine's surface.
- * Most small aircraft are air cooled, some are liquid cooled.
+VLJs are turbine powered aircraft which typically seat 3-7 passengers. Smaller
+versions may be called microjets.
 
-**Air Cooling**
+# Types of Turbine Engines
 
- * Achieved by air flow through the front of the cowling, then routed by
-   baffles over cooling fins attached to the cylinders, and other engine
-   parts.
- * Expulsion takes place through openeings in the lower aft part
-   of the cowling.
- * Less effective during ground ops, takeoff, climbs, go-arounds, and other
-   high-power and low-airspeed operations.
- * Conversely, high speed descents can shock-cool the engine.
- * Operating the engine at too high a temperature can lead to:
-    * Power loss.
-    * Excessive oil consumption.
-    * Detonation.
-    * Engine damage: scorched cylinders, piston/ring damage, warping valves.
- * In normal operations, reduce engine temperature by:
-    * Reducing power.
-    * Increasing airspeed.
-    * Enriching mixture.
-    * Opening cowl flaps (if equipped).
+Turbine engines are classified according to the type of compressor used:
 
-**Note on Oil Temperature Gauges vs. CHT Gauages**
+ 1. Centrifugal flow.
+     * Compression of air achieved by accelerating air outward, perpendicular
+       to the longitudinal axis of the machine.
+ 2. Axial flow.
+     * Compresses air by a series of rotating and stationary airfoils moving
+       air parallel to the longitudinal axis.
+ 3. Centrifugal-axial flow.
+     * Uses both of the above compression methods.
 
-Oil temp gauges give an indirect and delayed indication of rising engine
-temperature. Most aircraft also have a Cylinder Head Temperature (CHT)
-gauge that indicates a direct and immediate cylinder temp change.
+The *path* the air takes through the engine and *how power is produced*
+determines the type of engine. There are four types: turbojet, turboprop,
+turbofan, and turboshaft.
 
-# Exhaust Systems
+[Excellent StackExchange article.][se]
 
- * Vent combustion gases overboard, provide cabin heat, defrost windscreen.
- * Made up of exhaust piping attached to cylinders, muffler, muffler shroud.
+# Turbojet
 
-**Heating**
+ * Consists of four sections: **compressor, combustion chamber, turbine
+   section, exhaust.**
+    * The compression section passes air at high speed to the combustion
+      chamber.
+    * Combustion chamber contains fuel inlet valve and igniter for combustion.
+    * Expanding air drives a turbine, connected by a shaft to the compressor,
+      which is what sustains engine operation.
+    * Accelerated gases from the engine provide thrust.
+ * Turbojet engines are limited in *range and endurance*, but typically allow
+   higher speeds (eg. sustained supersonic).
+ * Also slow to respond to throttle applications at slow compressor speeds.
 
-Outside air is drawn into a shroud around the **muffler** (so it's quieter
-in the cabin?). Exhaust gases heat the muffler, which in turn heats the
-air which is then directed to the cabin.
+# Turboprop
 
-Exhaust gases contain carbon monoxide, need to be wary of it entering the
-cabin if there's a crack in the muffler.
+ * Turbine engine that drives a propellor through a reduction gear.
+ * Exhaust gases drive a power turbine connected by a shaft that drives the
+   reduction gear, necessary because the prop turns much slower than the
+   engine's RPM.
+ * Turboprops are a compromise between turbojet engines and reciprocating
+   engines (eg. piston engines).
+ * **Most efficient between 250-400 mph, altitudes 18,000-30,000'.**
+ * They also perform well at slow airspeeds (takeoff/landing), and are fuel
+   efficient.
 
-**EGT**
+# Turbofan
 
- * Some exhaust systems have an EGT (Exhaust Gas Temperature) probe, which
-   measures **temp of gases at the exhaust manifold**.
- * Temperature varies with the fuel-air ratio entering cylinders, and can
-   be used to set the mixture very accurately. Refer to manufacturer
-   procedure for leaning using EGT.
+ * Developed to combine best features of the turbojet and turobprop.
+ * Inlet air is divided into two streams of air, one goes through the
+   turbine core, and other flows around it but inside the cowling (bypass
+   air).
+ * The bypass air creates additional thrust, cools the engine, and provides
+   exhaust noise suppression.
+ * Provides turbojet-type cruise speed and lower fuel consumption.
+ * The **bypass ratio** refers to how much air is diverted around the core:
+    * Low bypass means most goes to the core (older engines?)
+    * High bypass (eg. 787), as much as 4/5s of air goes *around* the core.
 
-# Starting System
+# Turboshaft
 
- * Most small aircraft use a **direct-cranking electric starter**.
- * Consists of an electrical source, wiring, switches, and solenoids to
-   operate the starter and starter motor.
- * Most starters automatically engage and disengage. On older aircraft
-   this may be done manually with a pilot-activated lever.
- * **The starter engages the flywheel, rotating the engine at a speed
-   that allows the engine to start and maintain operation.**
- * Power is usually supplied by an onboard battery, but can also be
-   external.
-    * When the battery switch is turned on, electricity is supplied to
-      the main bus, which the starter is attached to.
-    * However, the **starter won't operate until the starting solenoid
-      is energized by the starter switch being turned to 'Start'.**
-      When the switch is released from 'Start', the solenoid removes
-      power from the starter motor.
- * **The starter motor is prevented from being driven by the engine
-   through a clutch in the starter drive that allows the engine to
-   run faster than the starter motor.**
+ * Delivers power to a shaft that drives something *other* than a propellor.
+ * The main difference is that most of the energy turns the shaft, rather
+   than providing thrust out the back of the engine.
+ * Many helicopters use turboshaft gas turbine engines.
+ * Also used as aux power units on large aircraft.
 
-# Combustion
+# Turbine Engine Instruments
 
- * In normal operation, the fuel-air mixture is ignited at the spark plug
-   and burns in a controlled fashion, delivering maximum power to the
-   piston at precisely the right time in the power stroke.
+ * Still have oil pressure/temp, engine speed, EGT, fuel flow.
+ * Additionally have engine pressure ratio (EPR), turbine discharge pressure,
+   and torque.
+ * Also have **turbocouples**, temperature sensors in and around the turbine
+   section.
 
-**Detonation**
+**Engine Pressure Ratio (EPR)**
 
- * **Detonation is an uncontrolled, explosive ignition of the mixture
-   within the cylinder.**
-    * It causes excessive temperatures and pressures, if not corrected
-      can lead to failure of piston, cylinder, or valves.
-    * In less severe cases can cause engine roughness, overheating, or
-      loss of power.
-    * Detonation is characterized by high CHT indications, and most likely
-      to occur at high power settings.
+ * Indicates the power output of a turbojet/turbofan engine.
+ * It's the **ratio of turbine discharge to compressor inlet pressure**,
+   recorded by probes at the inlet and exhaust.
+ * EPR system design automatically compensates for effects of airspeed and
+   altitude.
+ * Changes in ambient temperature require a correction to be applied to
+   EPR indications.
 
-**Common Causes of Detonation**
+**Exhaust Gas Temperature (EGT)**
 
- * Use of a lower fuel grade than specified.
- * Operation at high MAP and low RPM.
- * Operation at high power settings with excessively lean mixture.
- * Extended ground operations or steep climbs.
+ * Temperature in the turbine section is a limiting factor of gas turbine
+   engines, and must be monitored closely to prevent overheating turbine
+   blades and other exhaust section components.
+ * An EGT gauge is a common way to monitor the temperature of the turbine
+   section.
+ * EGT systems have different names based on the location of the sensors:
+    * Turbine Inlet Temperature (TIT).
+    * Turbine Outlet Temperature (TOT).
+    * Interstage turbine temperature (ITT).
+    * Turbine Gas Temperature (TGT).
 
-**Preignition**
+**Torquemeter**
 
- * Occurs when fuel-air mixture ignites *prior* to the engine's normal
-   ignition event.
- * Usually caused by a residual hot spot in the combustion chamber,
-   often caused by:
-    * Small carbon deposit on a spark plug.
-    * Cracked spark plug insulator.
-    * Other damage to the cylinder that causes part of it to heat
-      sufficiently to ignite the fuel-air charge.
- * **Preignition causes:**
-    * Loss of engine power
-    * High operating temperature.
-    * Possible severe engine damage - exerts excessive pressure on the
-      piston while still on the compression stroke.
+ * Measures engine power output, as the twisting force applied to the
+   shaft.
+ * Turboprop and turboshaft engines are designed to produce torque for
+   driving a shaft.
+ * Torquemeters are calibrated in %, foot-pounts, or PSI.
 
-Detonation and preignition often occur simultaneously and one may cause
-the other. Either causes high engine temp and a decrease in RPM, and
-may be difficult to distinguish. Use recommended grade fuel, and
-operate engine within limitations while monitoring temp, pressure, and
-RPM.
+**N<sub>1</sub> Indicator**
 
-# FADEC (Full Authority Digital Engine Control)
+ * Rotational speed for the **low pressure compressor**.
+ * Indicated as a percentage of design RPM.
+ * After start, the speed of the low pressure compressor is governed
+   by the N<sub>1</sub> turbine wheel.
+    * The N<sub>1</sub> turbine wheel is connected to the low pressure
+      compressor through a concentric shaft.
 
- * A digital computer and components which control an aircraft's
-   engine and propellor.
- * In a spark-ignition reciprocating engine, FADEC uses speed,
-   temperature, and pressure sensors to monitor the status of
-   each cylinder.
-    * A computer calculates the ideal pulse for each injector and
-      adjusts ignition timing as necessary for optimal performance.
- * In a comrpession-ignition engine, FADEC operates all the same
-   functions except for those related to the spark ignition process.
- * FADEC eliminates the need for:
-    * Magnetos.
-    * Carb heat.
-    * Mixture controls.
-    * Engine priming.
- * A single throttle lever is characteristic of a FADEC aircraft.
-    * The pilot positions the throttle lever to a desired detent,
-      such as start, idle, cruise or max power, and the FADEC
-      system adjusts the engine and propellor for the desired mode.
- * **During starting**, FADEC primes the cylinders, adjusts the
-   mixture, and positions the throttle based on engine temperature
-   and ambient pressure.
- * **During cruise, FADEC monitors the engine and constantly adjusts
-   fuel flow and ignition timing individually in each cylinder.
-    * This often results in decreased fuel consumption and increased
-      horsepower.
- * FADEC is considered an **essential system**, and in many aircraft
-   uses power from a separate generator connected to the engine.
-    * In either case, **there must be a backup electrical source,
-      and two separate and identical digital channels, each capable of
-      providing all engine and propellor functions.
+**N<sub>2</sub> Indicator**
+
+ * Rotational speed of the **high pressure compressor**.
+ * Same as for N<sub>1</sub>, except the N<sub>2</sub> turbine wheel is
+   connected to the high pressure compressor.
+
+# Turbine Engine Operational Considerations
+
+It's impossible to cover here all limitations that apply to all different
+types of turbine engines, but the follow apply to all:
+ * Engine Temperature Limits.
+ * Foreign Object Damage.
+ * Hot Start.
+ * Compressor Stall.
+ * Flameout.
+
+**Engine Temperature Limitations**
+
+The highest temperature in any turbine engine **occurs at the turbine inlet.**
+TIT is therefore usually the limiting factor in turbine engine operation.
+
+**Thrust Variations**
+
+ * Turbine engine thrust varies directly with air density, less density=less
+   thrust.
+ * Because *air density decreases with increase in temperature*, increased
+   temps also decrease thrust.
+ * However, compared to reciprocating engines, turbine engines experience
+   a *negligible loss of thrust in relative high humidity.*
+
+**Foreign Object Damage (FOD)**
+
+ * The possibility of ingestion of debris always exists, which causes significant
+   damage, particularly to the compressor and turbine sections.
+ * When this occurs, it's called Foreign Object Damage (FOD).
+ * Typical FOD is nicks caused by debris from the ground, but bird strikes or
+   ice ingestion can result in severe or total damage.
+ * Prevention of FOD is a high priority.
+    * Some engine inlets have a tendency to form a **vortex between the ground
+      and inlet during ground operations**.
+    * A **vortex dissipator** may be installed on these engines.
+    * Other devices like screens and/or deflectors may be used.
+    * Preflight includes inspecting for any sign of FOD.
+
+**Hot/Hung Start**
+
+ * When EGT exceeds the safe limit, it is a 'hot start'.
+ * Caused by **too much fuel** in the combustion chamber, or **insufficient RPM**.
+ * Any time a hot start occurs, refer to the AFM/POH for inspection requirements.
+ * A **hung start** is when the engine fails to accelerate to the proper speed
+   after ignition, or doesn't accelerate to idle RPM.
+    * Hung starts may be caused by an insufficient starting power source, or
+      fuel control malfunction.
+
+**Compressor Stalls**
+
+ * Compressor blades are airfoils, which have an AOA dependent on **inlet air
+   velocity** and **rotational velocity**, which combine to form a vector
+   that determines the blade's AOA.
+ * A **compressor stall** is an imbalance between the two quantities (inlet
+   air velocity and rotational velocity).
+ * **They occur when the compressor blades' AOA exceeds the critical AOA.**
+ * Compressor stalls cause air flowing in the compressor to slow down and
+   stagnate, and sometimes reverse direction.
+ * They can be small and intermittent, or steady and severe.
+ * Indications are usually a backfire as flow reversal takes place.
+ * If the stall develops, a **steady, strong vibration and loud roar may
+   develop** from the flow reversal.
+ * Gauges often don't show an intermittent stall, but do show a developed
+   stall as **RPM fluctuations, increase in EGT.**
+ * Intermitten stalls aren't harmful and often correct themselves. Developed
+   stalls are immediately damaging.
+    * **Recovery must be accomplished by quickly reducing power, decreasing
+      the aircraft's AOA, and increasing airspeed.**
+ * Most models of gas turbine engines have systems that inhibit compressor
+   stalls.
+    * One system uses a 'variable inlet guide vane' (VIGV) and variable
+      stator vanes that direct incoming air into the rotor blades at an
+      appropriate angle.
+
+**Flameout**
+
+ * Occurs when the fire in the engine unintentionally goes out.
+ * If the rich limit of the fuel-air ratio is exceeded in the combustion chamber,
+   the flame will blow out, often referred to as a 'rich flameout'.
+ * Common cause is low fuel pressure and low engine speeds, typically associated
+   with high-altitude flight. May also occur with engine throttled back during
+   a descent.
+ * Can be caused by rapid acceleration, injecting too much fuel in the engine.
+ * Can also be caused by insufficient airflow to support combustion.
+ * Other causes are prolonged unusual attitudes, malfunctioning fuel control
+   system, turbulence, icing, or running out of fuel.
+ * If the cause of the flameout can be resolved, then an in-air restart can be
+   attempted. In any case refer to the AFM/POH emergency procedures.
+
+ [se]: https://aviation.stackexchange.com/questions/4966/what-is-the-difference-between-a-turbofan-and-a-turboprop-engine
