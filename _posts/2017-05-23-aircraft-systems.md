@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GS28: Aircraft Systems
+title:  "GS28: Aircraft Systems"
 date:   2017-05-23 23:25:00
 categories: cpl-multi-training
 ---

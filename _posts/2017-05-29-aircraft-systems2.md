@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GS29: Aircraft Systems (2)
+title:  "GS29: Aircraft Systems (2)"
 date:   2017-05-29 14:13:00
 categories: cpl-multi-training
 ---
